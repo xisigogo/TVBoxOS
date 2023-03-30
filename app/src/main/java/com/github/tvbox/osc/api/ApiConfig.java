@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://52bsj.vip:81/api/v3/file/get/119163/fj.txt?sign=cW8VYaOJrGoSKf_UznjCr9zxok-kOb0olKpfwYbM5D0%3D%3A0");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
